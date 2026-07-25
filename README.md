@@ -25,16 +25,11 @@ first request after idle may take 30-60 seconds to respond.
    cd summative/FlutterApp
    flutter pub get
    ```
-3. Connect an Android device (with USB debugging enabled) or start an emulator,
-   then run:
+3. Start an Android emulator (via Android Studio's Device Manager) or connect
+   a physical Android device with USB debugging enabled, then run:
    ```
    flutter run
    ```
 4. The app already points at the live API
    (`https://art-price-api.onrender.com`), so no configuration is needed.
    Fill in the artwork details and tap **Predict** to get an estimated price.
-
-To run in a browser instead of on a device:
-```
-flutter run -d chrome --web-port=8080
-```
