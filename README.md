@@ -17,4 +17,24 @@ first request after idle may take 30-60 seconds to respond.
 (link coming after Task 4)
 
 ## Running the Flutter App
-(instructions coming after Task 3)
+
+1. Install Flutter (https://docs.flutter.dev/get-started/install) and confirm
+   your setup with `flutter doctor`.
+2. From the repo root:
+   ```
+   cd summative/FlutterApp
+   flutter pub get
+   ```
+3. Connect an Android device (with USB debugging enabled) or start an emulator,
+   then run:
+   ```
+   flutter run
+   ```
+4. The app already points at the live API
+   (`https://art-price-api.onrender.com`), so no configuration is needed.
+   Fill in the artwork details and tap **Predict** to get an estimated price.
+
+To run in a browser instead of on a device:
+```
+flutter run -d chrome --web-port=8080
+```
