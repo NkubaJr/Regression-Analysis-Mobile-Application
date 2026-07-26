@@ -5,6 +5,10 @@ This project predicts the auction sale price of an artwork from its creation
 year, signing status, condition, artist recognition, period, and movement, so
 galleries and buyers can sanity-check listing prices against market data.
 
+## Dataset
+
+Source: Art Price Dataset on Kaggle (flkuhm/art-price-dataset). 754 real auction records with price, artist, title, creation year, signing status, condition, period, and movement.
+
 ## API
 - Swagger UI: https://art-price-api.onrender.com/docs
 - Predict endpoint: `POST https://art-price-api.onrender.com/predict`
